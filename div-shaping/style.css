@@ -1,0 +1,116 @@
+body {
+  background-color: gray;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+.face {
+  width: 300px;
+  height: 300px;
+  border: 3px solid blue;
+  background-color: lightblue;
+  border-radius: 20px 20px 100px 100px;
+  position: relative;
+}
+
+.leye {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: purple;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+}
+
+.reye {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: purple;
+  position: absolute;
+  right: 80px;
+  top: 80px;
+}
+
+.pupil {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: orange;
+  position: absolute;
+  left: 15px;
+  top: 30px;
+}
+
+.mouth {
+  width: 100px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 0 0 100px 100px;
+  position: absolute;
+  left: 50px;
+  top: 170px;
+  transform: rotate(20deg);
+}
+
+/* A is NW, B is NE, C is SE, D is SW */
+
+.triangle-ex {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-color: red;
+  border-left-color: orange;
+  border-right-color: yellow;
+  border-bottom-color: green;
+  border-top-width: 100px;
+  border-left-width: 25px;
+  border-right-width: 25px;
+  border-bottom-width: 100px;
+}
+
+.triangle-a {
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: blue;
+  border-left-color: blue;
+}
+
+.triangle-b {}
+.triangle-c {}
+.triangle-d {}
+
+.triangle-up {}
+.triangle-left {}
+.triangle-right {}
+.triangle-down {}
+
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 3px solid red;
+  background-color: blanchedalmond;
+}
+
+
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 3px solid red;
+  background-color: blanchedalmond;
+  border-radius: 100px;
+}
+
+.oval {
+  width: 300px;
+  height: 100px;
+  border: 3px solid red;
+  background-color: blanchedalmond;
+  border-radius: 100%;
+}
